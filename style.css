@@ -50,7 +50,7 @@ h1 {
 }
 
 .wheel span {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
     color: white; /* Texto central branco */
 }
