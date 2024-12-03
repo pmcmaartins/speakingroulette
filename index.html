@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Speaking Roulette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Public Speaking Roulette</h1>
+    <div class="container">
+        <!-- Roda da esquerda -->
+        <div class="wheel-container">
+            <div class="title">Speaker</div>
+            <div class="wheel" id="wheel-left">
+                <span>⭐</span>
+            </div>
+            <textarea id="input-left" class="input-box" placeholder="Names for the Speaker!"></textarea>
+            <button onclick="spinWheel('wheel-left', 'input-left')">Spin!</button>
+        </div>
+
+        <div class="separator"></div>
+
+        <!-- Roda da direita -->
+        <div class="wheel-container">
+            <div class="title">Resume</div>
+            <div class="wheel" id="wheel-right">
+                <span>⭐</span>
+            </div>
+            <textarea id="input-right" class="input-box" placeholder="Names for the Resume!"></textarea>
+            <button onclick="spinWheel('wheel-right', 'input-right')">Spin!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
